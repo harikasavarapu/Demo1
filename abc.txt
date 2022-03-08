@@ -1,0 +1,21 @@
+1. creating Git Repo using GitHub
+	
+	a Create a new Repository on GitHub
+	b Copy the git repo url (https://github.com/harikasavarapu/Demo1.git)
+	c in any directory open git bash and tyoe :
+		git clone <git_url> (git clone https://github.com/harikasavarapu/Demo1.git)
+	d move into your repo directory.
+		(cd <dirName>)
+
+configure the bash shell:
+-------------------------
+ git config --global user.email "savarapuharika968@gmail.com"
+ git config --global user.name "harikasavarapu"
+
+
+2. how to add files in our local respitory.
+	a  git add . (to add working directory changes into staging area)
+	b  git commit -m "any meaningful message" (to store/commit changes in local repo)
+
+3. how to push change sfrom local respo to remote repo(GitHub).
+	git push
